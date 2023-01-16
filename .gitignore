@@ -1,0 +1,14 @@
+# .gitignore file for nodejs projects
+
+node_modules
+npm-debug.log
+.DS_Store
+.env
+
+# .gitignore file for react projects
+
+node_modules
+npm-debug.log
+.DS_Store
+.env
+build
