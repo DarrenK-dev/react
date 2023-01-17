@@ -1,0 +1,8 @@
+/* Left side menu */
+.leftmenu {
+  position: fixed;
+  width: 200px; /* adjust as needed */
+  background-color: blue;
+  height: 100vh;
+  overflow-y: auto; /* optional - add scrollbar if menu content exceeds height */
+}

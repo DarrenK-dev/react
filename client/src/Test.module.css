@@ -1,0 +1,25 @@
+.leftbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s ease;
+}
+
+.leftbar.open {
+  transform: translateX(0);
+}
+
+.leftbar:not(.open) {
+  transform: translateX(-200px);
+}
+
+.maincontent {
+  margin-left: 200px;
+  transition: all 0.5s ease;
+}
+
+.app {
+  position: relative;
+}

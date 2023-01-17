@@ -36,11 +36,12 @@ app.use(rateLimit({
 
 // get / route return json message
 app.get('/', (req, res) => {
+  console.log(req.session)
   res.json({ message: 'Welcome to the beginning of nothingness.' });
 });
 
 
-app.listen(3000, () => {
+app.listen(5000, () => {
   console.log('Server listening on port 3000');
 });
 
