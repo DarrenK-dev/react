@@ -4,9 +4,17 @@ import Sidebar from '../Components/Sidebar';
 import Main from '../Components/Main';
 import '../App.css';
 import styles from './App.module.css';
+import { GlobalProvider } from '../GlobalState';
+
+
+// create app context here with global state
+import {createContext} from 'react';
+export const AppContext = createContext();
+
 
 function App() {
   return (
+    <GlobalProvider>
     <div className={styles.App}>
       <Navbar />
       <div className={styles.container}>
@@ -16,6 +24,7 @@ function App() {
         </Main>
       </div>
     </div>
+    </GlobalProvider>
   
   );
 }

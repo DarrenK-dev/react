@@ -1,0 +1,26 @@
+.container {
+  /* width: 100%; */
+  height: 2em;
+  background-color: #383636;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 26px; /*10px is the value you can adjust to change the offset */
+}
+
+.boxShaddow {
+  /* box-shadow: inset 0px 0px 1px rgb(111, 109, 109); */
+  border: #666565 solid 0.5px;
+  box-sizing: border-box;
+  color: #d1d4dc;
+}
+
+.addBtn {
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: green;
+}
+
+.searchResult {
+  background-color: #020a45;
+}
