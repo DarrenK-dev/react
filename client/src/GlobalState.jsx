@@ -2,7 +2,7 @@ import React, { createContext, useReducer } from 'react';
 import {AppReducer} from './AppReducer';
 
 const initialState = {
-  symbolList : ['btcusdt', 'ethusdt', 'ltcusdt']
+  symbolList : ['btcusdt']
 }
 
 export const GlobalContext = createContext(initialState);
