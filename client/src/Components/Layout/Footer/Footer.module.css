@@ -1,0 +1,12 @@
+.footer {
+  /* background-color: pink; */
+  border-top: 1px solid #e5e5e5;
+  padding: 20px 0;
+  text-align: center;
+  color: #777;
+  font-size: 0.8rem;
+  /* height: 1em; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
